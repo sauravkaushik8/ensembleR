@@ -1,0 +1,14 @@
+Package: ensembleR
+Type: Package
+Title: Ensemble Models in R
+Version: 0.1.0
+Author: Saurav Kaushik
+Maintainer: Saurav Kaushik <sauravkaushik8@gmail.com>
+Description: Functions to use ensembles of several machine learning models
+    specified in caret package : (check : names(getModelInfo())).
+License: GPL-2
+Imports: caret(>= 6.0-71)
+Suggests: e1071, ipred,
+RoxygenNote: 5.0.1
+NeedsCompilation: no
+Packaged: 2016-09-13 03:42:24 UTC; SAURAV
